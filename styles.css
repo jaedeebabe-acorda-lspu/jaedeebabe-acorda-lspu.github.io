@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+.progress-title{
+  width: 100%;
+  height: auto;
+}
+.progress-title h3{
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+  margin: auto;
+}
+p{
+  font-size: 18px;
+  font-family: luicida sans;
+}
+.progress{
+  height: 12px;
+  width: 100%;
+  background: #1C6EA4;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0 2px 2px #000;
+  margin: auto;
+  overflow: visible;
+  position: relative;
+}
+.progress-td{
+  width: 100%;
+}
+.progress .progress-bar{
+  height: 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.column-left {
+  float: left;
+  align-content: center;
+  width: 30%;
+  padding: 10px;
+  height: 1080px;
+  background: #333C83;
+background: #4A8DAA;
+background: -moz-linear-gradient(left, #4A8DAA 0%, #8D8DAA 50%, #8D8DAA 100%);
+background: -webkit-linear-gradient(left, #4A8DAA 0%, #8D8DAA 50%, #8D8DAA 100%);
+background: linear-gradient(to right, #4A8DAA 0%, #8D8DAA 50%, #8D8DAA 100%);
+}
+.column-right {
+  float: left;
+  width: 70%;
+  padding: 10px;
+  height: 1080px;
+  background-color:whitesmoke;
+  text-align: center;
+}
+.cv-container {
+  max-width: 800px;
+  margin: auto;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;;
+  clear: both;;
+}
+i.ico-color{
+  color: white;
+  font-size: 50px;
+  padding: 20px;
+}
+i.ico-con{
+  color: white;
+  font-size: 20px;
+}
+img.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+img.icon{
+  color: whitesmoke;
+  float: left;
+  margin-left: auto;
+  padding: 1.5px;
+  margin-right: auto;
+}
+
+table {
+font-family: arial;
+}
+
+table.ref{
+
+}
+h3.ref, h3.eb, h3.pi{
+  color: white;
+  font-family: arial black;
+  font-weight: 100;
+  background: black;
+}
+h3.info{
+  color: black;
+  font-family: arial black;
+  font-weight: 100;
+  background: whitesmoke;
+  text-align: center;
+  opacity: 80%;
+}
+td.sch1, td.sch2, td.sch3{
+  width: 60%;
+}
+td.t1, td.t2{
+  width: 49.5%;
+}
+table.hob {
+  margin: auto;
+  align-content: center;
+}
+h2.fname{
+font-size: 35px;
+margin: 5px 0 10px;
+}
+h2.course{
+font-size: 25px;
+margin: 10px 0 10px;
+}
+h1.lname{
+  font-size: 50px;
+  font-color: white;
+  margin: 5px 0 10px;
+}
+hr{
+  height: 5px;
+  background: #144E75;;
+}
