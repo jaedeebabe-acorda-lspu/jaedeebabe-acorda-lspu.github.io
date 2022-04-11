@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+p{
+  font-size: 18px;
+  font-family: luicida sans;
+}
 .progress-title{
   width: 100%;
   height: auto;
@@ -10,10 +14,6 @@
   font-weight: 100;
   color: white;
   margin: auto;
-}
-p{
-  font-size: 18px;
-  font-family: luicida sans;
 }
 .progress{
   height: 12px;
@@ -34,7 +34,7 @@ p{
   border-radius: 20px;
   border: 1px solid white;
 }
-.column-left {
+.col-left {
   float: left;
   align-content: center;
   width: 30%;
@@ -46,7 +46,7 @@ background: -moz-linear-gradient(left, #4A8DAA 0%, #8D8DAA 50%, #8D8DAA 100%);
 background: -webkit-linear-gradient(left, #4A8DAA 0%, #8D8DAA 50%, #8D8DAA 100%);
 background: linear-gradient(to right, #4A8DAA 0%, #8D8DAA 50%, #8D8DAA 100%);
 }
-.column-right {
+.col-right {
   float: left;
   width: 70%;
   padding: 10px;
@@ -64,12 +64,12 @@ background: linear-gradient(to right, #4A8DAA 0%, #8D8DAA 50%, #8D8DAA 100%);
   display: table;;
   clear: both;;
 }
-i.ico-color{
+i.icon-color{
   color: white;
   font-size: 50px;
-  padding: 20px;
+  padding: 10px;
 }
-i.ico-con{
+i.hobbies-icon{
   color: white;
   font-size: 20px;
 }
@@ -96,27 +96,28 @@ font-family: arial;
 table.ref{
 
 }
-h3.ref, h3.eb, h3.pi{
+h3.person{
   color: white;
   font-family: arial black;
   font-weight: 100;
   background: black;
 }
-h3.info{
+h3.mine{
   color: black;
   font-family: arial black;
   font-weight: 100;
   background: whitesmoke;
   text-align: center;
   opacity: 80%;
+  margin: center;
 }
-td.sch1, td.sch2, td.sch3{
+td.sch{
   width: 60%;
 }
-td.t1, td.t2{
+td.t{
   width: 49.5%;
 }
-table.hob {
+table.hobby {
   margin: auto;
   align-content: center;
 }
